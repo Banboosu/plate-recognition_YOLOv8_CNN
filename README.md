@@ -1,5 +1,6 @@
 1. 创建虚拟环境：
    安装 [uv](https://docs.astral.sh/uv/getting-started/)：
+   使用终端
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
