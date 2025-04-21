@@ -14,3 +14,8 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 5. 运行 GUI.py 可以使用图形化界面进行车牌识别
 
+6. 摄像头实时识别车牌功能：
+   - 运行 camera_rec_plate.py 可以使用摄像头进行实时车牌识别（仅命令行界面）
+   - 运行 camera_gui.py 可以使用带有图形界面的摄像头实时车牌识别系统
+   - 在图形界面中，可以选择摄像头ID，开始/停止检测，以及截图保存功能
+
