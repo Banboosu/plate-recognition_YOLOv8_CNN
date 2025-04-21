@@ -1,14 +1,23 @@
+**感谢原作者的毕设**
+
 1. 创建虚拟环境：
+
    安装 [uv](https://docs.astral.sh/uv/getting-started/)：
-   使用终端
+
+   在项目文件夹打开终端
+
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
+   完成后重新打开终端：
 
 ```
 uv venv -p 3.11
 uv pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
+
+**若不使用 PyCharm 等编辑器运行，可在项目文件夹打开终端运行 uv run *GUI.py(想运行的 python 文件)***
 
 2. 等待所需模块安装完成之后，运行 detect_rec_plate.py 脚本即可执行车牌检测+车牌识别程序，检测图片或视频放在【T_T_imgs】文件夹，结果将会输出到【T_T_result】文件夹
 
